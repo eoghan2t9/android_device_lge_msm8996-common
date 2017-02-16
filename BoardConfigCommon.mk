@@ -196,3 +196,6 @@ WIFI_DRIVER_FW_PATH_STA     := "/system/etc/firmware/fw_bcmdhd.bin"
 
 # inherit from the proprietary version
 -include vendor/lge/msm8996-common/BoardConfigVendor.mk
+
+#Lockscreen charging info: real time values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
