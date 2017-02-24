@@ -170,7 +170,10 @@ persist.timed.enable=true
 # WiFi
 wifi.interface=wlan0
 
-#Usb debugging
+#USB debugging - test
 persist.service.adb.enable=1
 persist.service.debuggable=1
 persist.sys.usb.config=mtp,adb
+
+# SU for apps and ADB by default - test 
+persist.sys.root_access=3 
