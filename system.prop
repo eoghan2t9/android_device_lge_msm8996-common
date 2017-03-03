@@ -166,3 +166,14 @@ persist.timed.enable=true
 
 # WiFi
 wifi.interface=wlan0
+
+# Dalvik
+dalvik.vm.heapsize=60m
+
+# USB debugging
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+
+# SU for apps and ADB by default
+persist.sys.root_access=3
