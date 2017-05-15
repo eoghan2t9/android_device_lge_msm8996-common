@@ -109,12 +109,11 @@ PRODUCT_COPY_FILES += \
 
 # Browser
 PRODUCT_PACKAGES += \
-    Gello
+    Jelly
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap \
-    Camera2
+    Snap
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
